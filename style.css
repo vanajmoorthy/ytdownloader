@@ -1,0 +1,60 @@
+.center {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 90vh;
+}
+
+.heading {
+	font-family: europa, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.URL-input,
+.convert-button {
+	font-size: 1.3em;
+	padding: 5px 10px;
+	font-family: europa, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.URL-input {
+	border-radius: 4px;
+	width: 60vw;
+	text-align: center;
+	border: 2px solid #eeeeee;
+	background: #eeeeee;
+	outline: none;
+}
+
+.URL-input:focus {
+	border: 2px solid #0485ff;
+}
+
+.convert-button {
+	margin-top: 20px;
+	border: 2px solid #1da7ea;
+	background: #1da7ea;
+	color: white;
+	transition: 0.15s;
+}
+
+.convert-button:hover {
+	background: #1b92ce;
+	border-color: #1b92ce;
+	transition: ease 0.3s;
+}
+
+#mp3 {
+	border-radius: 4px;
+	margin-left: 5px;
+}
+
+#mp4 {
+	border-radius: 4px;
+	margin-right: 5px;
+}
